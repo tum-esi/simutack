@@ -1,0 +1,6 @@
+# npm build directories
+webserver/simutack-web-ui/dist
+webserver/simutack-web-ui/node_modules
+webserver/simutack-web-ui/build
+
+

@@ -1,0 +1,5 @@
+numpy
+requests
+tornado
+websocket-client
+carla==0.9.13

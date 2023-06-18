@@ -1,0 +1,6 @@
+aenum
+numpy
+tornado
+requests
+simplejpeg
+opencv-python

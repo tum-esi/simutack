@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg8761"
+   sodipodi:docname="speed_limit_60.svg"
+   viewBox="0 0 644.41 690.77"
+   version="1.1"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="-11"
+     fit-margin-left="0"
+     pagecolor="#ffffff"
+     inkscape:window-height="2066"
+     inkscape:window-maximized="1"
+     inkscape:zoom="1.979899"
+     inkscape:window-x="-11"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g12074"
+     inkscape:cx="486.13591"
+     inkscape:cy="376.28182"
+     fit-margin-top="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="3840"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:pagecheckerboard="0" />
+  <g
+     id="layer1"
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     transform="translate(-32.083 -67.306)">
+    <g
+       id="g12074">
+      <g
+         id="g10138"
+         transform="translate(-15.305 -2.5575)">
+        <path
+           id="path8784"
+           sodipodi:rx="322.14285"
+           sodipodi:ry="322.14285"
+           style="stroke:#000000;stroke-width:3.0134;fill:#ffffff"
+           sodipodi:type="arc"
+           d="m400 568.79c0 177.91-144.23 322.14-322.14 322.14s-322.14-144.23-322.14-322.14 144.23-322.14 322.14-322.14 322.14 144.23 322.14 322.14z"
+           transform="matrix(.99557 0 0 .99557 292.08 -174.21)"
+           sodipodi:cy="568.79077"
+           sodipodi:cx="77.85714" />
+        <path
+           id="path8784-6"
+           sodipodi:rx="322.14285"
+           sodipodi:ry="322.14285"
+           style="stroke:#ff0000;stroke-width:110.5;fill:none"
+           sodipodi:type="arc"
+           d="m400 568.79c0 177.91-144.23 322.14-322.14 322.14s-322.14-144.23-322.14-322.14 144.23-322.14 322.14-322.14 322.14 144.23 322.14 322.14z"
+           transform="matrix(.81450 0 0 .81450 306.18 -71.219)"
+           sodipodi:cy="568.79077"
+           sodipodi:cx="77.85714" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:361.468px;line-height:1.25;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.03671"
+         x="177.62636"
+         y="512.52606"
+         id="text3486-2"><tspan
+           sodipodi:role="line"
+           id="tspan3484-4"
+           x="177.62636"
+           y="512.52606"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:9.03671" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:361.468px;line-height:1.25;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.03671"
+         x="143.63683"
+         y="515.96436"
+         id="text3486"><tspan
+           sodipodi:role="line"
+           id="tspan3484"
+           x="143.63683"
+           y="515.96436"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';stroke-width:9.03671">60</tspan></text>
+    </g>
+  </g>
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>B14-50</dc:title>
+        <dc:date>2012-11-27T06:42:16</dc:date>
+        <dc:description>Road, Sign, France</dc:description>
+        <dc:source>https://openclipart.org/detail/173390/b14-50-by-desmoric-173390</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Desmoric</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>France</rdf:li>
+            <rdf:li>Road</rdf:li>
+            <rdf:li>Sign</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

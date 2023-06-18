@@ -1,0 +1,74 @@
+version: "3.8"
+
+# All services that are required to run the supported scenarios
+services:
+  # CARLA container which is the data source and main simulation environment
+  carla:
+    container_name: carla
+    build:
+      context: ./carla
+    networks:
+      - simutack-net
+    ports:
+      - "2000-2002:2000-2002"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+              driver: nvidia
+              count: all
+  
+  # Simutack framework container
+  simutack:
+    container_name: simutack
+    build:
+      context: ./simutack
+    command: "python3 simutack -v --ip carla --port 2000 --carla-path /carla/PythonAPI/carla/dist/carla-0.9.12-py3.8-linux-x86_64.egg"
+    volumes:
+      - ./simutack:/simutack
+    networks:
+      - simutack-net
+    ports:
+      - 3000:3000
+    depends_on:
+      - "carla"
+
+  # ECU container
+  traffic-sign-ecu:
+    container_name: traffic-sign-ecu
+    build:
+      context: ./ecus/traffic-sign-recognition
+    networks:
+      - simutack-net
+    ports:
+      - 4000:4000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+              driver: nvidia
+              count: all
+    depends_on:
+      - "carla"
+      - "simutack"
+
+  autopilot-ecu:
+    container_name: autopilot-ecu
+    build:
+      context: ./ecus/autopilot
+    volumes:
+      - ./ecus/autopilot:/autopilot
+    networks:
+      - simutack-net
+    ports:
+      - 5000:5000
+    depends_on:
+      - "carla"
+      - "simutack"
+      - "traffic-sign-ecu"
+
+networks:
+  simutack-net:
+

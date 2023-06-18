@@ -1,0 +1,14 @@
+websocket
+websocket-client
+tensorflow==2.6
+keras==2.6
+easydict
+protobuf<3.20,>=3.9.2
+numpy==1.19.2
+tornado
+asyncio
+simplejpeg
+aenum
+Pillow
+rel
+easyocr
